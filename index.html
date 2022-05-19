@@ -1,8 +1,7 @@
 ﻿<!DOCTYPE html>
 <head>
+     <style>
     <img id="logo" src="./Ki.Photo.21.crop.jpg"/>
-    <iframe id="youtube_video" width="560" height="315" src="https://www.youtube.com/embed/smKUafzHUc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <style>
     body {
             background-color: white;
             box-sizing: border-box;
@@ -90,6 +89,14 @@
             flex-direction: row;
             flex-wrap: wrap;
         }
+         
+        #youtube_video{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 45%;
+            margins: 2%;
+            padding: 2%;
+         }
 
         .project {
             flex-basis: 16%;
@@ -166,6 +173,7 @@
                 text-align: center;
             }
         }
+         
     </style>
 </head> 
 <body>
@@ -188,6 +196,9 @@
     <section id="projects_collection">
         <div>
             <h1 id="page_heading">Kieran Dillon's Portfolio</h1>
+        </div>
+        <div>
+         <iframe id="youtube_video" width="560" height="315" src="https://www.youtube.com/embed/smKUafzHUc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <ul id="project_card">
             <li class="project">
