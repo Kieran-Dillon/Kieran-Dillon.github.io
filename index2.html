@@ -31,11 +31,47 @@ flex for main title */
            flex-direction: column;
            text-align: center;
           }
+  .menu_item {
+            /*margin: 2%;*/
+             display: flex;
+             flex-direction: row;
+            padding: 2%;
+            font-weight: 600;
+            font-size: 1.5em;
+            color: white;
+            text-align: center;
+            float: center;
+            list-style-type: none;
+        }
 
 /*projects
 flex home page project
 flex for project movie */
-
+#projects_collection{
+            background-color: black;
+        }
+#intro_video{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 65%;
+            margins: 2%;
+            padding: 2%;
+            justify-content: center;
+            align-items: center;
+         }
+ #port_prev{
+             display: flex;
+             flex-direction: column;
+             flex-basis: 65%;
+             margins: 2%;
+             padding: 2%;
+             justify-content: center;
+             align-items: center;
+          }
+    #projects_video {
+      
+    }
+    
 
 /*contact
 flex chat with me*/
@@ -43,5 +79,27 @@ flex chat with me*/
   </style>
 </head>
 <body>
-
+<section id="menu">
+        <div id="menu1">
+             
+           <div id="headshot_container">
+              <img id="logo" src="./Ki.Photo.21.crop.jpg" alt="headshot"/>
+           </div>
+        <div id="menu2">
+             <h1 id="page_heading">Kieran Dillon's Portfolio</h1>
+             <ul id="menu_bar">
+                <li class="menu_item">Home Page</li>
+                <li class="menu_item">Projects</li>
+            <!--    <li class="menu_item"><a href="#books_collection">Product Page</a></li> -->
+            </ul>
+        </div>
+    </section>
+    <section id="projects_collection">
+        <div id="intro_div">
+         <iframe id="intro_video" width="560" height="315" src="https://www.youtube.com/embed/smKUafzHUc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+         <div id="port_prev">
+              <iframe id="projects_video" width="419" height="744" src="https://www.youtube.com/embed/wFKjaUDsfvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+  </section>
 </body>
