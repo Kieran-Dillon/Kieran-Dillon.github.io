@@ -20,23 +20,77 @@
         #p_container{
             text-align: center;
         }
+        #project_card {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            flex-basis: 16%;
+            margin: 2%;
+            padding: 2%;
+        }
+
+        .project_vid {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .project_name {
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.5em;
+        }
+        .icon_style{
+            font-size: 30px;
+        }
+       
     </style>
 </head>
 <body>
     <div>
         <h1>Kieran Dillon's Projects</h1>
-        <div id="container">
-           
+        <section id="project_collection">
+        <ul id="project_card">
+            <li class="project">
+                <img class="project_vid" src=" " alt="project1"/>
+                <h2 class="project_name">Project1_name</h2>
+            </li>
+            <li class="project">
+                <img class="project_vid" src=" " alt="project2"/>
+                <h2 class="project_name">Project2_name</h2>
+            </li>
+            <li class="project">
+                <img class="project_vid" src=" " alt="project3"/>
+                <h2 class="project_name">Project3_name</h2>
+            </li>
+            <li class="project">
+                <img class="project_vid" src=" " alt="project4" />
+                <h2 class="project_name">Project4_name</h2>
+            </li>
+            <li class="project">
+                <img class="project_vid" src=" " alt="project5" />
+                <h2 class="project_name">Project5_name</h2>
+            </li>
+            <li class="project">
+                <img class="project_vid" src=" " alt="project6" />
+                <h2 class="project_name">Project6_name</h2>
+            </li>
+            <li class="project">
+                <img class="project_vid" src=" " alt="project7" />
+                <h2 class="project_name">Project7_name</h2>
+            </li>
+            <li class="project">
+                <img class="project_vid" src=" " alt="project8" />
+                <h2 class="project_name">Project8_name</h2>
+            </li>
             
-        </div>
-        <div id="projects_container">
-            <p id=" ">
-               
-            </p>
-            <p id=" ">
-               
-            </p>
-        </div>
+
+        </ul>
+
+    </section>
     </div>
     <script>
        
