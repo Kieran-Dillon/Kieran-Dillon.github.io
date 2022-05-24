@@ -1,0 +1,188 @@
+ <style>
+    * {
+  padding: 0;
+  margin: 0;
+}
+/*STYLING FOR NAVIGATION BAR*/
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+   padding: 4%;
+}
+.background {
+   background: black;
+   background-blend-mode: darken;
+   background-size: cover;
+}
+
+.nav-list {
+   width: 70%;
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.logo img {
+   width: 180px;
+   border-radius: 50px;
+}
+
+.nav-list li {
+   list-style: none;
+   padding: 26px 30px;
+   font-size: 1.5em;
+}
+
+.nav-list li a {
+   text-decoration: none;
+   color: white;
+}
+.nav-list li a:hover {
+   color: grey;
+}
+.rightnav {
+   width: 30%;
+   text-align: right;
+}
+#search {
+   padding: 5px;
+   font-size: 17px;
+   border: 2px solid grey;
+   border-radius: 9px;
+}
+
+/*STYLING FOR BODY OF HOME PAGE*/
+body{
+  padding-bottom:65px;
+}
+
+#center_logo {
+  display: flex;
+  margin: auto;
+  padding: 3%;
+  height: 30%;
+  width: 30%;
+}
+    
+a.logo{
+  text-decoration:none;
+  font-size: 1.3em;
+  font-weight: 900;
+  padding: 20px 30px;
+}
+
+a.logo:hover{cursor:pointer;}
+
+a.menu-link {
+  font-weight: 900;
+  font-size: 0.9em;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+a.menu-link:hover {
+  cursor: pointer;
+}
+
+#menu {
+  overflow: hidden;
+  max-height: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 65px;
+}
+
+#menu ul {
+  list-style-type: none;
+}
+
+#menu ul li a {
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #222222;
+  color:#ffffff;
+  display: block;
+  padding: 20px 30px;
+  font-size:2em;
+
+}
+
+#menu ul li a:hover{
+  background-color:#111111;
+ 
+}
+
+.js nav[role=navigation] {
+  overflow: hidden;
+  max-height: 0;
+}
+
+h1{
+  text-align: center;
+  padding: 50px;
+  font-size: 3em;
+  font-weight: 900;
+}
+h3{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/*STYLING FOR <P> TAG OF BIO*/
+a {
+  text-align: center;
+  font-weight: 350;
+  font-size: 1.5em;
+}
+p{
+ display: block center;
+ font-size: 1.5em;
+ font-weight: 300;
+ font-family: "Times New Roman", Times, serif;
+}
+
+/*STYLING FOR BODY OF PROJECTS PAGE*/
+#p_container{
+            text-align: center;
+        }
+        #project_card {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            display: flex;
+            flex-basis: 16%;
+            flex-direction: column;
+            margin: 2%;
+            padding: 2%;
+        }
+
+        #project_vid {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .project_name {
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.5em;
+        }
+        .icon_style{
+            font-size: 30px;
+        }
+</style>
